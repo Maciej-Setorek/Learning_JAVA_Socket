@@ -8,6 +8,8 @@ public class Server {
             DataInputStream dis=new DataInputStream(s.getInputStream());
             String  str=(String)dis.readUTF();
             System.out.println("message= "+str);
+            System.out.println("message= "+str);
+
             ss.close();
         }catch(Exception e){System.out.println(e);}
     }
